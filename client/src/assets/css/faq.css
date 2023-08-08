@@ -1,0 +1,60 @@
+.inner {
+    align-items: unset;
+    justify-content: unset;
+}
+.desci p{
+    line-height: 2;
+    font-size: 21px;
+    color:white;
+}
+h1
+{
+    font-weight: bold;
+    color: #4ed9da;
+    margin-top: 120px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.card{
+    height: 400px;
+    margin-bottom: 100px;
+    padding: 50px;
+    color: white;
+    background-color: transparent;
+    font-size: 22px;
+    line-height: 2;
+    border: none !important;
+}
+.sora-lef{
+    border:solid;
+    border-color: #ffbf67;
+    border-width: 10px;
+    border-top-right-radius:40px;
+    border-bottom-right-radius:40px;
+    background-size: cover;
+}
+.sora-righ{
+    border:solid;
+    border-color: #ffbf67;
+    border-width: 10px;
+    border-top-left-radius:40px;
+    border-bottom-left-radius:40px;
+    background-size: cover;
+}
+.ques{
+    height: 200px;
+    text-align: center;
+}
+.ques h2{
+    position: relative;
+    top: 10px;
+    font-size: 40px;
+    color: #4ed9da;
+    font-weight: bold;
+}
+.ques p{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    color: #ffbf67;
+}

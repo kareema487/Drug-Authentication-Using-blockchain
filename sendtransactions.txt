@@ -1,0 +1,12 @@
+https://faucet.ropsten.be/
+Address 0x7d9bf8Ae9DDB624721b779859e2bd95f8dfFA977
+
+https://faucet.ropsten.be/donate/0x7d9bf8Ae9DDB624721b779859e2bd95f8dfFA977
+
+////////////////////Links///////////////////////
+https://jianjye.com/articles/14/how-to-deploy-ethereum-smart-contract-to-ropsten-testnet-via-infura
+
+////////////////////Migrate/////////////////////
+truffle complie
+truffle migrate --network ropsten
+truffle deploy --network ropsten --reset

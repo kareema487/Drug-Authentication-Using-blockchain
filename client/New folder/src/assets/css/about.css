@@ -1,0 +1,48 @@
+.navbar {
+    border-radius: 4px;
+    width: 100% !important;
+}
+.navbar .contanier,a.navbar-brand{
+    height: 100%;
+}
+div#navbarTogglerDemo02{
+    display: flex !important;
+}
+.ribbon
+{
+    width: 100%;
+    height: 30px;
+    margin-top: 217px;
+    background-color: #ffbf67;
+    position: absolute;
+    z-index: 1;
+}
+#about
+{
+    height: 400px;
+    margin-top: -212px;
+    background-color: #ffffff;
+    z-index: 2;
+    border:solid;
+    border-radius: 40px;
+    border-width: 10px;
+    border-color: #ffbf67;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#about h1
+{
+   font-weight: bold;
+   color: #f23b9f;
+    text-align: center;
+    margin-top: 50px;
+}
+#about p
+{
+   font-size: 15px;
+    line-height: 35px;
+    color: #083863;
+    text-align: center;
+    /*justify-content: center;*/
+    margin-top: 30px;
+}

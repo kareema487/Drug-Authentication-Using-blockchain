@@ -1,0 +1,21 @@
+.viwe.login{
+    width: 492px !important;
+    border: 9px solid #FFBF67;
+    border-radius: 50px;
+}
+form h3{
+    color:#52CCC8;
+    
+}
+label[for='1s'],label[for='2s'],label[for='3s'],label.formDesc{
+    color:#D5D8D8;
+}
+button[type="submit"]{
+    background-color: #FFBF67 !important;
+    border: 1px solid orange;
+}
+button[type="submit"]:hover{
+    background-color: orange !important;
+    border: 1px solid #FFBF67;
+    transition: 0.5;
+}

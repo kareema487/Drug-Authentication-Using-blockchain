@@ -1,0 +1,241 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* custom styles start here */
+
+.steps {
+    margin: 0 auto;
+    padding: 1rem 0;
+    width: fit-content;
+}
+
+.step {
+    display: flex;
+    height: 74px;
+}
+
+.dates {
+    display: flex;
+    flex-direction: column;
+}
+
+.time {
+    position: relative;
+    padding: 0 1rem;
+}
+
+.time.active::after {
+    background-color: green !important;
+}
+
+.time::after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 2;
+    transform: translateX(50%);
+}
+
+.step-items-dates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-context {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 1rem 1rem;
+    position: relative;
+}
+
+.step-heading,
+.time {
+    line-height: 1.5rem;
+}
+
+.step-context::before {
+    content: " ";
+    border-left: 1px solid black;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.step:last-child .step-context::before {
+    height: 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+.step-items-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.step-items-text,
+.step-items-dates {
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.step-items-text li {
+    padding: .5rem 0;
+}
+
+.step-items-dates li {
+    padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .item-text-description {
+        display: none;
+    }
+    .step-items-dates li {
+        padding: .5rem 0;
+    }
+}

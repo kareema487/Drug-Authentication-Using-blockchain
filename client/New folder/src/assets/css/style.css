@@ -1,0 +1,162 @@
+.header-content-inner>.navbar>.container-fluid {
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #ffbf67;
+    background-color: white;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #f23b9f;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ffbf67;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #ffbf67;
+    background-color: white;
+}
+.navbar-nav>li>.dropdown-menu {
+    border: solid;
+    border-radius: 5px;
+    border-color: #ffbf67;
+}
+.dropdown-menu>li>a{
+    color: #f23b9f;
+}
+.dropdown-menu>li>a:hover{
+    color: white;
+    background-color: #ffbf67;
+}
+@media only screen and (max-width: 767px)
+{
+   .navbar-default .navbar-nav>li>a {
+        text-align: center;
+    }
+}
+.modal-content {
+    border-radius: 45px;
+    border-width: 5px;
+    border-color: #ffbf67;
+}
+.logSi{
+    color: grey; 
+    font-size: 18px;
+    background-color:white;
+    box-shadow: 5px 5px 5px #d0d3d7;
+    
+}
+.inphea{
+    color: #b2b2b2;
+    font-size: 22px;
+    position: relative;
+    left: 10px;
+    margin-bottom: 10px;
+}
+hr
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #ffbf67;
+}
+/*Check boxes of popup*/
+.conta {
+  display: inline;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left:40px;
+    margin-top: 20px;
+}
+.lab{
+	color:#b2b2b2;
+    font-weight: 300;
+}
+/* Hide the browser's default radio button */
+.conta input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff2e1;
+  border-radius: 50%;
+  border:solid;
+  border-width:1px;
+  border-color:#ffbf67;
+}
+
+/* On mouse-over, add a grey background color */
+.conta:hover input ~ .checkmark {
+  background-color: #ffbf67;
+}
+
+/* When the radio button is checked, add a blue background */
+.conta input:checked ~ .checkmark {
+  background-color: #ffbf67;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.conta input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.conta .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+}
+
+
+
+.modal-footer {
+    border-top: 1px solid #ffbf67;
+}
+.modal-body {
+    position: relative;
+    padding: 40px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #f23b9f;
+    background-color: #fff2e1;
+    background-image: none;
+    border: 2px solid #ffbf67;
+    border-radius: 50px;
+}
